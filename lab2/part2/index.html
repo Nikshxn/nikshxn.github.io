@@ -31,6 +31,8 @@ planet data table webpage. The page includes a title, a heading, and links to th
   
   <!-- Names of the columns -->
   <thead>
+    <th></th>
+    <th></th>
     <th>Name</th>
     <th>Mass (10²⁴ kg)</th>
     <th>Diameter (km)</th>
@@ -103,10 +105,11 @@ planet data table webpage. The page includes a title, a heading, and links to th
   </tbody>
 
   <tbody>
-    <th rowspan="4" scope="rowgroup">Jovian Planets</th>
-    <th rowspan="2" scope="rowgroup">Gas Giants</th>
+    
     <!-- row for Jupiter-->
     <tr>
+      <th rowspan="4" scope="rowgroup">Jovian Planets</th>
+      <th rowspan="2" scope="rowgroup">Gas Giants</th>
       <th scope="row">Jupiter</th>
       <td>1,898</td>
       <td>142,984</td>
@@ -132,10 +135,12 @@ planet data table webpage. The page includes a title, a heading, and links to th
       <td>62</td>
       <td></td>
     </tr>
+  </tbody>
 
-    <th rowspan="4" scope="rowgroup">Ice Giants</th>
-    <!-- row for Uranus -->
+  <!-- row for Uranus -->
     <tr>
+      <th rowspan="4" scope="rowgroup">Jovian Planets</th>
+      <th rowspan="2" scope="rowgroup">Ice Giants</th>
       <th scope="row">Uranus</th>
       <td>86.8</td>
       <td>51,118</td>
@@ -147,11 +152,8 @@ planet data table webpage. The page includes a title, a heading, and links to th
       <td>27</td>
       <td></td>
     </tr>
-  </tbody>
-
-   <tbody> 
-  <th rowspan="4" colspan="2" scope="rowgroup">Dwarf Planets</th>
-    <!-- row for Neptune -->
+  
+<!-- row for Neptune -->
     <tr>
       <th scope="row">Neptune</th>
       <td>102</td>
@@ -165,9 +167,14 @@ planet data table webpage. The page includes a title, a heading, and links to th
       <td></td>
     </tr>
 
+    </tbody>
+
+    <tbody>
+    <th rowspan="4" scope="rowgroup">Dwarf Planets</th>
     <!-- row for Pluto -->
     <tr>
-      <th scope="row">Pluto</th>
+      <th rowspan="4" scope="rowgroup"></th>
+      <th rowspan="2"scope="row">Pluto</th>
       <td>0.0146</td>
       <td>2,370</td>
       <td>2,095</td>
@@ -178,7 +185,9 @@ planet data table webpage. The page includes a title, a heading, and links to th
       <td>5</td>
       <td>Declassified as a planet in 2006, but this <a href="https://usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/1657859/">remains controversial</a></td>
   </tr>
+    </tbody>
    <!-- Additional rows for other planets can be added here -->  
   </tbody>
 </table>
+</body>
 </html>
