@@ -1,7 +1,12 @@
 /* General setup */
-
 * {
   box-sizing: border-box;
+}
+
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -20,10 +25,26 @@ main {
   padding: 20px 0;
 }
 
-/* header and footer */
-
 header {
   border-bottom: 5px solid #aa6666;
+}
+/* This the font style for the h1 and h2 elements. Both fonts use 'myFont' */
+h1 {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 footer {
