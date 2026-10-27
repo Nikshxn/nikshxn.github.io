@@ -30,7 +30,7 @@ header {
 }
 /* This the font style for the h1 and h2 elements. Both fonts use 'myFont' */
 h1 {
-  font-family: "Alfa Slab One", serif;
+  font-family: "Bevan", serif;
   text-align: center;
   font-size: 3em;
   font-weight: 400;
@@ -39,12 +39,13 @@ h1 {
 }
 
 h2 {
-  font-family: "Alfa Slab One", serif;
+  font-family: "Bevan", serif;
   text-align: center;
   font-size: 2em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 3px;
+  text-indent: 3rem;
 }
 
 footer {
@@ -54,3 +55,19 @@ footer {
 footer p {
   text-align: center;
 }
+
+p {
+  text-indent: 2rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+li {
+   line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+a { 
+  outline:none;
+}
+
