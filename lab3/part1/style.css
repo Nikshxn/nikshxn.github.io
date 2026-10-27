@@ -10,7 +10,7 @@ body {
   margin:0 auto;
 }
  
-  h1 {
+h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: left;
@@ -18,11 +18,11 @@ body {
   border-bottom: 10px dotted purple;
 }
 
-  div.job-title {
+div.job-title {
   font-size: 1.5em;
   font-weight: bold;
   color: darkslategray;
-  }
+ }
 
 h2 {
   font-size: 1.5em;
@@ -38,12 +38,12 @@ ul{
   border-radius: 20px;
     }
 
-  a {
+a {
     color: green;
   }
 
-  a:hover,
-  a:focus {
+a:hover,
+a:focus {
     color: darkgreen;
     text-decoration: none;
   }
